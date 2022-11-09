@@ -9,3 +9,4 @@ steps:
     command: |
       echo $PATH
       ifconfig
+      curl -v -k https://artifacthub-phx.oci.oraclecorp.com/api/system/ping
